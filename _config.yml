@@ -17,7 +17,7 @@ title: Hou Yuanjie's Blog
 email:
 description:
 url: "https://houyuanjie.github.io/"
-baseurl:
+baseurl: ""
 # twitter_username: username
 github_username: houyuanjie
 minimal_mistakes_skin: default
@@ -28,7 +28,7 @@ markdown: kramdown
 theme: minimal-mistakes-jekyll
 
 # Outputting
-permalink: /:categories/:title/
+permalink: /:year/:month/:day/:title/
 paginate: 5 # amount of posts to show
 paginate_path: /page:num/
 timezone: Asia/Shanghai
@@ -97,7 +97,7 @@ defaults:
       layout: single
       author_profile: true
       read_time: true
-      comments: true
+      # comments: true
       share: true
       related: true
   # _pages
