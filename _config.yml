@@ -91,15 +91,15 @@ footer:
 defaults:
   # _posts
   - scope:
-      path: ""
+      path: "_posts"
       type: posts
     values:
       layout: single
       author_profile: true
       read_time: true
       # comments: true
-      share: true
-      related: true
+      # share: true
+      # related: true
   # _pages
   - scope:
       path: "_pages"
@@ -108,6 +108,9 @@ defaults:
       layout: single
       author_profile: true
 
+post_archive:
+  type: liquid
+  path: /archive/
 category_archive:
   type: liquid
   path: /categories/
