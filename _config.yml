@@ -16,6 +16,8 @@
 title: Hou Yuanjie's Blog
 email:
 description:
+url: "https://houyuanjie.github.io/"
+baseurl:
 # twitter_username: username
 github_username: houyuanjie
 minimal_mistakes_skin: default
