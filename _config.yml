@@ -16,7 +16,7 @@
 title: Hou Yuanjie's Blog
 email:
 description:
-url: "https://houyuanjie.github.io/"
+url: "https://curried.fun/"
 baseurl: ""
 # twitter_username: username
 github_username: houyuanjie
@@ -65,7 +65,7 @@ author:
   links:
     - label: "Website"
       icon: "fas fa-fw fa-link"
-      url: "https://houyuanjie.github.io/"
+      url: "https://curried.fun/"
     # - label: "Twitter"
     #   icon: "fab fa-fw fa-twitter-square"
     #   url: "https://twitter.com/"
