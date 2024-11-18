@@ -1,6 +1,7 @@
 ---
 title: "关于我"
 permalink: /about/
+author_profile: true
 ---
 
 我正在学习编程，这里是我的个人空间，我会将学到的知识或者自己的想法分享在这里。
