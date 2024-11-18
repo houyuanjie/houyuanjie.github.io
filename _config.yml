@@ -13,9 +13,9 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: Hou Yuanjie's Blog
+title: 代码厨房
 email:
-description:
+description: 技术博客
 url: "https://curried.fun/"
 baseurl: ""
 # twitter_username: username
@@ -59,9 +59,9 @@ plugins:
   # - jekyll-algolia
 
 author:
-  name: "Hou Yuanjie"
+  name: "侯元杰"
   avatar: "/assets/images/bio-photo.jpg"
-  bio: "My awesome biography constrained to a sentence or two goes here."
+  bio: "代码是写给人看的，注释是写给 GPT 看的。"
   links:
     - label: "Website"
       icon: "fas fa-fw fa-link"
@@ -95,7 +95,7 @@ defaults:
       type: posts
     values:
       layout: single
-      author_profile: true
+      # author_profile: true
       read_time: true
       # comments: true
       # share: true
@@ -106,7 +106,7 @@ defaults:
       type: pages
     values:
       layout: single
-      author_profile: true
+      # author_profile: true
 
 post_archive:
   type: liquid

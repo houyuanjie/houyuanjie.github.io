@@ -1,6 +1,5 @@
 ---
-title: "Posts by Category"
+title: "按分类查看"
 permalink: /categories/
 layout: categories
-author_profile: true
 ---
