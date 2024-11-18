@@ -60,7 +60,7 @@ plugins:
 
 author:
   name: "侯元杰"
-  avatar: "/assets/images/bio-photo.jpg"
+  avatar: "/assets/images/avatar.jpg"
   bio: "代码是写给人看的，注释是写给 GPT 看的。"
   links:
     - label: "Website"
