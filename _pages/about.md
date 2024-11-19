@@ -8,7 +8,7 @@ author_profile: true
 
 域名 _curried.fun_ 来自函数式编程中的柯里化（Currying）技术。
 
-站名 _代码厨房_ 呼应域名中的 _curry_ 一词，我希望在这里分享出来的内容能像在厨房烹饪一样，轻松、创意有乐趣。
+站名 _代码厨房_ 呼应域名中的 _curry_ 一词，我希望在这里分享出来的内容能像在厨房烹饪一样，轻松、创意、有乐趣。
 
 欢迎收藏这个网站，或者访问我的 [Github](https://github.com/houyuanjie) 。
 
