@@ -8,6 +8,13 @@ tags:
 
 在 Ruby 中如何给一个已经存在的类添加新的方法？
 
+例如，我们希望给整数添加 `is_even?` 和 `is_odd?` 方法，用来判断一个整数是否为偶数或者奇数。
+
+```ruby
+3.is_even? # false
+3.is_odd?  # true
+```
+
 在 Scala 中，我们可以使用 `extension` 关键字来实现，类似这样：
 
 ```scala
@@ -39,7 +46,7 @@ IntOps(3).isOdd
 
 可以看到，Scala 的实现原理是对原类进行包装，再通过包装类扩展方法。
 
-与此不同，在 Ruby 中，我们不需要对类进行包装，而是可以直接扩展已有类：
+与 Scala 不同，在 Ruby 中，我们不需要对类进行包装，而是可以直接扩展已有类：
 
 ```ruby
 class Integer
