@@ -136,13 +136,13 @@ eval code
 "0010 getlocal_WC_0                          b@1\n";
 { stack: [self, 1, 2], a: 1, b: 2 };
 "0012 opt_plus                               <calldata!mid:+, argc:1, ARGS_SIMPLE>[CcCr]\n";
-{ stack: [3], a: 1, b: 2 };
+{ stack: [self, 3], a: 1, b: 2 };
 "0014 putobject                              3\n";
-{ stack: [3, 3], a: 1, b: 2 };
+{ stack: [self, 3, 3], a: 1, b: 2 };
 "0016 opt_plus                               <calldata!mid:+, argc:1, ARGS_SIMPLE>[CcCr]\n";
-{ stack: [6], a: 1, b: 2 };
+{ stack: [self, 6], a: 1, b: 2 };
 "0018 opt_send_without_block                 <calldata!mid:puts, argc:1, FCALL|ARGS_SIMPLE>\n";
-{ stack: [], a: 1, b: 2 };
+{ stack: [nil], a: 1, b: 2 };
 "0020 leave\n";
 // 指令序列结束
 ```
