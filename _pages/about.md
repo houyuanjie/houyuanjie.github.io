@@ -12,6 +12,8 @@ author_profile: true
 
 欢迎收藏这个网站，或者访问我的 [Github](https://github.com/houyuanjie) 。
 
+如果你发现了文章中的任何错误，欢迎在 [houyuanjie.github.io](https://github.com/houyuanjie/houyuanjie.github.io) 这个仓库中发起议题（issue）或者直接提交你的修改（pull request）。
+
 我感兴趣的技术有：
 
 - JVM (Java, Scala)
