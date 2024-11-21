@@ -61,7 +61,7 @@ int main(int argc, char *argv[])
 
 首先 `IntelliSense` 将提示我们找不到头文件 `ruby.h`，将鼠标放置在标红的 `#include <ruby.h>` 这一行，然后点击添加 `ruby-3.2.0` 和 `x86_64-linux-gnu/ruby-3.2.0` 到 `IncludePath` 中，这将在 `.vscode` 目录下生成一个 `c_cpp_properties.json` 文件，内容大致如下：
 
-```json
+```jsonc
 {
   "configurations": [
     {
@@ -91,7 +91,7 @@ int main(int argc, char *argv[])
 
 生成的 `launch.json` 文件内容大致如下：
 
-```json
+```jsonc
 {
   "configurations": [
     {
@@ -127,7 +127,7 @@ int main(int argc, char *argv[])
 
 生成的 `tasks.json` 文件内容大致如下：
 
-```json
+```jsonc
 {
   "tasks": [
     {
@@ -170,7 +170,7 @@ $ pkg-config --cflags --libs ruby
 
 最终的 `tasks.json` 文件内容如下：
 
-```json
+```jsonc
 {
   "tasks": [
     {
