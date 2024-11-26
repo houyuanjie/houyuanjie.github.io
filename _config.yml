@@ -33,6 +33,11 @@ paginate: 5 # amount of posts to show
 paginate_path: /page:num/
 timezone: Asia/Shanghai
 
+# Search Engine settings
+search_engines:
+  baidu:
+    site_verification: codeva-24bA1R6vNj
+
 include:
   - _pages
 
