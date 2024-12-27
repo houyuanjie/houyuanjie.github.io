@@ -20,7 +20,7 @@ mruby 是 Ruby 语言的轻量级实现，由 Ruby 的作者松本行弘主持�
 
 mruby 版本 `3.3.0`，mruby 的源代码可以在 [mruby.org/downloads](https://mruby.org/downloads/) 页面或者 Github 仓库 [mruby/mruby](https://github.com/mruby/mruby) 下载。
 
-编译 mruby 前需要安装 Ruby，因为 mruby 的构建系统是用 Ruby 写的。在 Windwos 上安装 Ruby 可以使用 [RubyInstaller for Windows](https://rubyinstaller.org/)，推荐下载安装带 Devkit 的版本，它会自动安装一份 Ruby 需要的 MSYS2 环境。我安装的 Ruby 版本是 `3.3.6`。
+编译 mruby 前需要安装 Ruby，因为 mruby 的构建系统是用 Ruby 写的。在 Windows 上安装 Ruby 可以使用 [RubyInstaller for Windows](https://rubyinstaller.org/)，推荐下载安装带 Devkit 的版本，它会自动安装一份 Ruby 需要的 MSYS2 环境。我安装的 Ruby 版本是 `3.3.6`。
 
 下载 mruby 的源代码后，解压到一个工作目录。我将 mruby 的源代码放在了 `D:\Workspace\ruby\mruby-3.3.0`，下面的过程请你对应自己的实际目录。
 
