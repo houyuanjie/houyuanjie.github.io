@@ -5,7 +5,7 @@ gem 'github-pages'
 gem 'minimal-mistakes-jekyll'
 
 gem 'webrick'
-
+gem 'mutex_m'
 gem 'tzinfo-data'
 gem 'wdm' if Gem.win_platform?
 
