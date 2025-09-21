@@ -3,12 +3,27 @@
 <script>
   MathJax = {
     tex: {
-      inlineMath: { "[+]": [["$", "$"]] },
+      inlineMath: [["$", "$"]],
+      displayMath: [
+        ["$$", "$$"],
+        ["\\[", "\\]"],
+      ],
+      packages: { "[+]": ["ams"] },
+      processEscapes: true,
+      processEnvironments: true,
     },
     svg: {
       fontCache: "global",
     },
+    options: {
+      skipHtmlTags: ["script", "noscript", "style", "textarea", "pre"],
+      renderActions: {
+        addMenu: [0, "", ""],
+      },
+    },
+    loader: {
+      load: ["[tex]/ams"],
+    },
   };
 </script>
 <script defer src="https://cdn.jsdelivr.net/npm/mathjax@4/tex-svg.js"></script>
-<!-- end MathJax configuration -->
