@@ -25,6 +25,7 @@ search: true
 
 # Build settings
 markdown: kramdown
+mathjax: true
 theme: minimal-mistakes-jekyll
 
 # Outputting
